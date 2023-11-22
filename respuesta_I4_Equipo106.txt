@@ -6,3 +6,5 @@ A- El color de fondo de TESTING quedó blue
 B- El color de fondo de DESARROLLO quedó yellow
 C- El color de fondo de main(MASTER) quedó blue
 D- El favicon que quedó es el de BETA
+E- Beta tuvo problemas al intentar hacer el push
+F- El problema surgio debido a que el repositorio remoto contiene trabajo que no se tiene localmente.
