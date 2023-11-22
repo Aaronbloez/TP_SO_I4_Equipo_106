@@ -1,0 +1,2 @@
+A- El color de fondo de TESTING quedó green
+B- El color de fondo de DESARROLLO quedó yellow
