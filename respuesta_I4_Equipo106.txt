@@ -8,3 +8,16 @@ C- El color de fondo de main(MASTER) quedó blue
 D- El favicon que quedó es el de BETA
 E- Beta tuvo problemas al intentar hacer el push
 F- El problema surgio debido a que el repositorio remoto contiene trabajo que no se tiene localmente.
+G- Solución: Utilizar git pull antes que el git push.
+   Consecuencia: Se producirá un merge que traerá los cambios actuales en el repositorio remoto al local para poder solucionar posibles conflictos. Es la solución más típica y recomendada.
+
+   Solución: Crear un pull request.
+   Consecuencia: Se hace una petición con los cambios que se desean incorporar, dando oportunidad de ser revisados por el o los responsables del repositorio antes de se hacer una posible fusión. Es una opción bastante común en entornos de desarrollo colaborativo.
+
+   Solución: Utilizar git rebase.
+   Consecuencia: Reorganiza los commits locales sobre la base de la rama indicada. Mantiene el historial más lineal y puede evitar commits de merge, pero reescribe la historia del proyecto, lo que puede alterar el flujo de trabajo, por lo que no siempre es recomendable.
+
+   Solución: Utilizar git push -f.
+   Consecuencia:  Forzará los cambios locales hacia el repositorio destino. Pueden perderse datos y modificaciones que otros colaboradores hayan subido a la rama. No se recomienda su uso a menos que sea algo sumamente necesario.
+
+H- Si cada uno usara el "push -f" los cambios se enviarían al repositorio independientemente de su estado actual, sobreescribiendo una y otra vez el cambio implementado por el colaborador anterior.
