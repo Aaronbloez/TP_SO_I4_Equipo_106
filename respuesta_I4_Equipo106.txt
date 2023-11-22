@@ -1,2 +1,8 @@
+Gutierrez Mariel
+Lopez Hoays Aaron Bernabe
+Gloria Salas Diego Leonardo
+
 A- El color de fondo de TESTING quedó blue
 B- El color de fondo de DESARROLLO quedó yellow
+C- El color de fondo de main(MASTER) quedó blue
+D- El favicon que quedó es el de BETA
