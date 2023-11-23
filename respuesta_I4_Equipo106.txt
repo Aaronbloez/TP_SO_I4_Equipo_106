@@ -21,3 +21,7 @@ G- Solución: Utilizar git pull antes que el git push.
    Consecuencia:  Forzará los cambios locales hacia el repositorio destino. Pueden perderse datos y modificaciones que otros colaboradores hayan subido a la rama. No se recomienda su uso a menos que sea algo sumamente necesario.
 
 H- Si cada uno usara el "push -f" los cambios se enviarían al repositorio independientemente de su estado actual, sobreescribiendo una y otra vez el cambio implementado por el colaborador anterior.
+I-Para que el index.html de la rama DESAROLLO tenga los puntos 18,19 y 20 se debera:
+  Pararse en la rama DESAROLLO y mediante un git checkout TESTING -- index.html(sobre escriber el index.html en el DESAROLLO con la informacion que tiene este archivo en el TESTING)
+  Se hace el commit
+  Y se hace el push
